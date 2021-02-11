@@ -60,6 +60,25 @@
                                                 </div>
                                                 <div class="col-sm-6">
                                                     <div class="form-group">
+                                                        <div class="controls">
+                                                             <label for="cover">Cover</label>
+                                                            <input id="catname" type="file" name="cover" class="form-control" 
+                                                             required data-validation-required-message="cover image required">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                       <label for="topcat">Add To Top Category</label>
+                                                            <select name="topcat" id="topcat" class="form-control controls">
+                                                                <option value="yes">yes</option>
+                                                                <option value="no">no</option>
+                                                               
+                                                            </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
                                                        <label for="status">Status</label>
                                                             <select name="status" id="status" class="form-control controls">
                                                                 <option value="Active">Active</option>

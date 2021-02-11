@@ -142,7 +142,13 @@
                                                             </select>
                                                     </div>
                                                 </div>
+                                                  <div class="col-sm-12">
+                                                 <div class="form-group">
+                                                    <label for="description">Description </label>
+                                                    <textarea class="form-control ckeditor" name="description" id="description" rows="5" placeholder="Description"></textarea>
+                                                </div>
                                             </div>
+                                        </div>
                                             <button type="submit" class="btn btn-primary">Submit</button>
                                         </form>
                                     </div>
@@ -153,43 +159,15 @@
                 </section>
                 <!-- Input Validation end -->
 
-              <!-- full Editor start -->
-                <section class="full-editor">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="card">
-                                <div class="card-header">
-                                    <h4 class="card-title">Full Editor</h4>
-                                </div>
-                                <div class="card-content collapse show">
-                                    <div class="card-body">
-                                       
-                                        <div class="row">
-                                            <div class="col-sm-12">
-                                                <div id="full-wrapper">
-                                                    <div id="full-container">
-                                                        <div class="editor">
-                                                           
-                                                           
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- full Editor end -->
+             
 
-                
+
+           
             </div>
         </div>
     </div>
 
-
+<script src="//cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
 
 
 

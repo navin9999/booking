@@ -41,6 +41,18 @@ class AdminCatController extends Controller
             return view('admin.sub_cat_edit');
         }
 
+    public function admin_cat_child_list() {
+            return view('admin.cat_child_list');
+        }
+
+        public function admin_cat_child_add() {
+            return view('admin.cat_child_add');
+        }
+
+        public function admin_cat_child_edit() {
+            return view('admin.cat_child_edit');
+        }
+
    
     /**
      * Show the form for creating a new resource.

@@ -87,6 +87,87 @@
         </div>
     </div>
     <!-- END: Content-->
+SKU *
+xxxxxxxxx
+Name *
+Name
+Full Description
+
+Key Features
+
+CoverNo file chosen
+ImagesNo file chosen
+You can use ctr (cmd) to select multiple images
+Quantity *
+1
+Stock Quantity *
+1
+MRP *
+Price
+Discount (in %) *
+Discount
+Sale Price
+Sale Price
+Brand 
+Color
+Color
+Use comma(,) as a separator
+
+Product Type
+Product type
+Material
+Product Material
+
+
+Add Different Sizes
+Size
+Size
+Price
+Size
+
+Size
+Size
+Price
+Size
+
+
+
+Add Weights
+Unit
+Grams
+Weight
+Weight
+Price
+Price
+
+
+
+
+SEO Parameters
+Meta Title
+Meta Title
+Meta Description
+Meta Description
+Search Keywords
+Search Keywords
+Use comma (,) as a separator for multiple keywords.
+
+
+
+Shipping Info
+GST Percentage
+0
+Preferred Payment Method
+Both
+Shipping Amount
+Meta Title
+Return Period
+At a time of delivery
+Add ToFeatured 
+Add To Trending 
+Add To Top Rated 
+Add To Top Rated 
+Status 
 
 
    @endsection

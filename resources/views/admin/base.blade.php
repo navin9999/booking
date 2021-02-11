@@ -28,10 +28,6 @@
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/themes/semi-dark-layout.css">
     <!-- END: Theme CSS-->
 
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/editors/quill/katex.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/editors/quill/monokai-sublime.min.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/editors/quill/quill.snow.css">
-    <link rel="stylesheet" type="text/css" href="../../../app-assets/vendors/css/editors/quill/quill.bubble.css">
     <!-- BEGIN: Page CSS-->
     <link rel="stylesheet" type="text/css" href="../../../app-assets/css/core/menu/menu-types/vertical-menu.css">
     <!-- END: Page CSS-->
@@ -40,6 +36,9 @@
     <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
     <!-- END: Custom CSS-->
    </head>
+   <style type="text/css">
+    
+   </style>
    <!-- END: Head-->
    <!-- BEGIN: Body-->
    <body class="vertical-layout vertical-menu-modern boxicon-layout no-card-shadow 2-columns  navbar-sticky footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="2-columns">
@@ -117,6 +116,12 @@
                      </li>
                    
                      <li><a href="/admin_sub_cat_list"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Invoice Edit">Sub Category List</span></a>
+                     </li>
+
+                     <li><a href="/admin_cat_child_add"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Invoice List">Child Sub Category Add</span></a>
+                     </li>
+                   
+                     <li><a href="/admin_cat_child_list"><i class="bx bx-right-arrow-alt"></i><span class="menu-item" data-i18n="Invoice Edit">Child Category List</span></a>
                      </li>
                     
                   </ul>
@@ -232,9 +237,7 @@
     <script src="../../../app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
       <!-- END: Page Vendor JS-->
        <!-- BEGIN: Page Vendor JS-->
-    <script src="../../../app-assets/vendors/js/editors/quill/katex.min.js"></script>
-    <script src="../../../app-assets/vendors/js/editors/quill/highlight.min.js"></script>
-    <script src="../../../app-assets/vendors/js/editors/quill/quill.min.js"></script>
+   
     <script src="../../../app-assets/vendors/js/extensions/jquery.steps.min.js"></script>
     <script src="../../../app-assets/vendors/js/forms/validation/jquery.validate.min.js"></script>
     <!-- END: Page Vendor JS-->
@@ -255,7 +258,8 @@
     <script src="../../../app-assets/js/scripts/forms/validation/form-validation.js"></script>
     <!-- END: Page JS-->
      <!-- BEGIN: Page JS-->
-    <script src="../../../app-assets/js/scripts/editors/editor-quill.js"></script>
+     <script src="//cdn.ckeditor.com/4.8.0/standard/ckeditor.js"></script>
+
     <!-- END: Page JS-->
    </body>
    <!-- END: Body-->

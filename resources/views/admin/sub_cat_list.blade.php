@@ -36,29 +36,34 @@
                                 <div class="card-content">
                                     <div class="card-body card-dashboard">
                                        
-                                        <div class="table-responsive">
+                                         <div class="table-responsive table-bordered">
                                             <table class="table zero-configuration">
                                                 <thead>
                                                     <tr>
                                                         <th>#</th>
-                                                        <th>Sub Cat Name</th>
-                                                        <th>Cat Name</th>
-                                                        <th>Status</th>
                                                         <th>Created At</th>
-                                                        <th>Sub Cat List</th>
-                                                       
-                                                        <th>Action</th>
+                                                        <th> Sub Category Name</th>
+                                                        <th> P Category Name</th>
+                                                        <th>  Chaild Sub Categories</th>
+                                                        <th>  Cover</th>
+                                                        <th>   Status</th>
+                                                        <th> Top Categories</th>
+                                                        <th>  Actions</th>
                                                     </tr>
                                                 </thead>
                                                 <tbody>
                                                     <tr>
+
                                                         <td>#</td>
+                                                         <td>2011/04/25</td>
+                                                         <td>Sumo 34</td>
                                                         <td>Sumo</td>
-                                                        <td>Sumo2</td>
-                                                        <td>active</td>
-                                                        <td>2011/04/25</td>
                                                         <td><a href="/admin_sub_cat_list" class="btn btn-info btn-xs">Sub Cat</a></td>
-                                                        <td><a href="/admin_sub_cat_edit" class="btn btn-warning btn-xs ">Edit</a></td>
+                                                        <td><img src="#"></td>
+                                                        <td>active</td>
+                                                        <td>No</td>
+                                                        
+                                                        <td><a href="/admin_cat_edit" class="btn btn-warning btn-xs ">Edit</a></td>
                                                     </tr>
                                                    
                                                    
@@ -67,13 +72,14 @@
                                                 <tfoot>
                                                     <tr>
                                                         <th>#</th>
-                                                        <th>Sub Cat Name</th>
-                                                        <th>Cat Name</th>
-                                                        <th>Status</th>
                                                         <th>Created At</th>
-                                                        <th>Sub Cat List</th>
-                                                       
-                                                        <th>Action</th>
+                                                        <th> Sub Category Name</th>
+                                                        <th> P Category Name</th>
+                                                        <th>  Chaild Sub Categories</th>
+                                                        <th>  Cover</th>
+                                                        <th>   Status</th>
+                                                        <th> Top Categories</th>
+                                                        <th>  Actions</th>
                                                     </tr>
                                                 </tfoot>
                                             </table>

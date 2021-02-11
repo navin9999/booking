@@ -11,14 +11,14 @@
                 <div class="content-header-left col-12 mb-2 mt-1">
                     <div class="row breadcrumbs-top">
                         <div class="col-12">
-                            <h5 class="content-header-title float-left pr-1 mb-0">Add Sub Category</h5>
+                            <h5 class="content-header-title float-left pr-1 mb-0">Add Sub Cat</h5>
                             <div class="breadcrumb-wrapper col-12">
                                 <ol class="breadcrumb p-0 mb-0">
                                     <li class="breadcrumb-item"><a href="/"><i class="bx bx-home-alt"></i></a>
                                     </li>
-                                    <li class="breadcrumb-item"><a href="/admin_sub_cat_list">Sub Category</a>
+                                    <li class="breadcrumb-item"><a href="/admin_sub_cat_list">Sub Cat</a>
                                     </li>
-                                    <li class="breadcrumb-item active">Add Sub Category
+                                    <li class="breadcrumb-item active">Add Sub Cat
                                     </li>
                                 </ol>
                             </div>
@@ -33,7 +33,7 @@
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h4 class="card-title">Add Sub Category</h4>
+                                    <h4 class="card-title">Add  Cat</h4>
                                 </div>
                                 <div class="card-content">
                                     <div class="card-body">
@@ -42,7 +42,7 @@
                                             <div class="row">
                                                 <div class="col-sm-12">
                                                     <div class="form-group">
-                                                       <label for="status">Category Select</label>
+                                                       <label for="status">Cat Select</label>
                                                             <select name="status" id="status" class="form-control controls">
                                                                 <option value="Active">Home</option>
                                                                 <option value="Inactive">About</option>
@@ -56,6 +56,25 @@
                                                              <label for="catname">Cat Name</label>
                                                             <input id="catname" type="text" name="text" class="form-control" placeholder="First Name" required data-validation-required-message="This First Name field is required">
                                                         </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                        <div class="controls">
+                                                             <label for="cover">Cover</label>
+                                                            <input id="catname" type="file" name="cover" class="form-control" 
+                                                             required data-validation-required-message="cover image required">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                 <div class="col-sm-6">
+                                                    <div class="form-group">
+                                                       <label for="topcat">Add To Top Cat</label>
+                                                            <select name="topcat" id="topcat" class="form-control controls">
+                                                                <option value="yes">yes</option>
+                                                                <option value="no">no</option>
+                                                               
+                                                            </select>
                                                     </div>
                                                 </div>
                                                 <div class="col-sm-6">
